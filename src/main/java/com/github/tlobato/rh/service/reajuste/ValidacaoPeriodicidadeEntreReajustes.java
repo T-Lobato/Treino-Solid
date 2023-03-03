@@ -1,13 +1,14 @@
-package com.github.tlobato.rh.service;
+package com.github.tlobato.rh.service.reajuste;
 
 import com.github.tlobato.rh.ValidacaoException;
 import com.github.tlobato.rh.model.Funcionario;
+import com.github.tlobato.rh.service.ValidacaoReajuste;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste{
+public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste {
 
     public void validar(Funcionario funcionario, BigDecimal aumento) {
         LocalDate dataUltimoReajuste = funcionario.getDataUltimoReajuste();

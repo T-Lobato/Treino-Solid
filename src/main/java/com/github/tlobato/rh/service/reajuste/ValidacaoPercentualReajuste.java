@@ -1,11 +1,12 @@
-package com.github.tlobato.rh.service;
+package com.github.tlobato.rh.service.reajuste;
 
 import com.github.tlobato.rh.ValidacaoException;
 import com.github.tlobato.rh.model.Funcionario;
+import com.github.tlobato.rh.service.ValidacaoReajuste;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class ValidacaoPercentualReajuste implements ValidacaoReajuste{
+public class ValidacaoPercentualReajuste implements ValidacaoReajuste {
 
     public void validar(Funcionario funcionario, BigDecimal aumento) {
         BigDecimal salarioAtual = funcionario.getSalario();

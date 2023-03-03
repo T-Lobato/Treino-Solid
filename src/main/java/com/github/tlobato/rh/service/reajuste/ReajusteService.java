@@ -1,6 +1,7 @@
-package com.github.tlobato.rh.service;
+package com.github.tlobato.rh.service.reajuste;
 
 import com.github.tlobato.rh.model.Funcionario;
+import com.github.tlobato.rh.service.ValidacaoReajuste;
 import java.math.BigDecimal;
 import java.util.List;
 
