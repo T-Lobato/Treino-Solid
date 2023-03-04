@@ -4,7 +4,6 @@ import com.github.tlobato.rh.model.Funcionario;
 import java.math.BigDecimal;
 
 public interface ValidacaoReajuste {
-
     /*
     Com a utilização dessa interface para implementar o OCP - OPEN CLOSE PRINCIPLE, nós acabamos seguindo também
     o príncipio DIP - DEPENDENCY INVERSION PRINCIPLE, a letra 'D' do Solid.
