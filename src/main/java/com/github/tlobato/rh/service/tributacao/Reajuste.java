@@ -7,6 +7,5 @@ public interface Reajuste {
 
     BigDecimal valor();
     LocalDate data();
-    BigDecimal valorImpostoDeRenda();
 
 }

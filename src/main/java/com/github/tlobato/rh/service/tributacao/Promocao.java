@@ -3,7 +3,7 @@ package com.github.tlobato.rh.service.tributacao;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class Promocao implements Reajuste{
+public class Promocao implements ReajusteTributavel{
 
     private BigDecimal valor;
     private LocalDate data;
